@@ -25,6 +25,9 @@
 	<link rel="stylesheet" href="css/ucihaiti.css">
 	<link rel="stylesheet" href="css/um-navbar.css">
 	
+	<!-- FontAwesome Icons -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
 
 
 </head>
@@ -85,6 +88,9 @@
 					<h3 id="header-caption-bottom" class="text-center" >Know & Experience God</h3>            
 					           
 				</div>
+				<div id="vidpause">
+					<i id="button-icon" class="fa fa-pause fa-lg"></i>
+				</div>
 			</div>                
         </div>
     </header>    
@@ -102,6 +108,30 @@
         </div>
     </section> 
 	
+	<script>
+			var vid = document.getElementById("bgvid"),
+		pauseButton = document.getElementById("vidpause"),
+		icon = document.getElementById("button-icon");
+		function vidFade() {
+			vid.classList.add("stopfade");
+		}
+		vid.addEventListener('ended', function() {
+			// only functional if "loop" is removed 
+			 vid.pause();
+			// to capture IE10
+			vidFade();
+		});
+		pauseButton.addEventListener("click", function() {
+			vid.classList.toggle("stopfade");
+			if (vid.paused) {
+		vid.play();
+				icon.className = "fa fa-pause fa-lg";
+			} else {
+				vid.pause();
+				icon.className = "fa fa-play fa-lg";
+			}
+		})
+	</script>	
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
