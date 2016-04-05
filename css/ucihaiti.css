@@ -89,6 +89,10 @@ header  {
     #header-logo  {
 	padding: 125px 10px 10px 10px;
 	}
+	
+	#vidpause  {
+	display: none;
+}
 }
 
 section {
