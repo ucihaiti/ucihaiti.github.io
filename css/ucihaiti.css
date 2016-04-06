@@ -54,7 +54,7 @@ header  {
 
 #header-shadowbox  {
 	background-color:rgba(0,0,0,.25);
-	padding-top: 5%;
+	padding-top: 7em;
 	height: 100%;
 	}
 
@@ -97,7 +97,7 @@ header  {
 }
 
 section {
-	padding: 70px 70px;
+	padding: 70px 6%;
 }
 
 #mission  {
@@ -125,8 +125,8 @@ section {
 }
 
 #goals  {
-	background-color: #e7e7e7;
-	color: black;
+	background-color: gray;
+	color: white;
 	padding: 50px 0px;
 }
 
