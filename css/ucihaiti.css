@@ -54,7 +54,7 @@ header  {
 
 #header-shadowbox  {
 	background-color:rgba(0,0,0,.25);
-	padding-top: 5%;
+	padding-top: 8%;
 	height: 100%;
 	}
 
@@ -83,6 +83,10 @@ header  {
          background: url(/img/uci-smiling-faces.jpg) #000 no-repeat 50% 100%;
          background-size: auto 100%;
     }
+    
+    #header-shadowbox  {
+	padding-top: 35%;
+	}
     
     #header-logo  {
 	width: 200px;
