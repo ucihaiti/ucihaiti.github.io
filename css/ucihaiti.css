@@ -7,7 +7,7 @@ body {
 body {
 	min-height: 100%;
 	font-family: 'Raleway','Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: bold;
+    font-size: 20px;
 	}
 
 #top, #header-container, #header-row, #header-img-left  {
@@ -40,10 +40,11 @@ video#bgvid {
 	border-radius: 25px;
 	height: 50px;
 	width: 50px;
-	padding-top: 14px;
-    padding-left: 16px;
+	padding-top: 10px;
+    padding-left: 13px;
 	
 }
+
 
 .stopfade { opacity: .5; }
 
@@ -53,12 +54,12 @@ header  {
 
 #header-shadowbox  {
 	background-color:rgba(0,0,0,.25);
-	padding-top: 12%;
+	padding-top: 5%;
 	height: 100%;
 	}
 
 #header-logo  {
-	width: 200px;
+	width: 300px;
 	padding: 20px 10px;
 	margin: 0px auto;
 	}
@@ -96,11 +97,50 @@ header  {
 }
 
 section {
-	margin: 70px 0px;
+	padding: 70px 70px;
 }
 
-#mission-title {
+#mission  {
+	background-color: white;
+	color: gray;
+}
+
+#mission-container  {
+	border: 1px solid black;
+}
+
+#mission-content  {
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+#mission-content p {
+	font-family: 'Poiret One', cursive;
+	color: black;
+}
+
+#mission-logo {
+	width: 250px;
+	margin: 25px auto 25px auto;
+}
+
+#goals  {
+	background-color: #e7e7e7;
+	color: black;
+	padding: 50px 0px;
+}
+
+#goals ul {
+	margin: 50px 0px;
+}
+
+#goals-title {
 	display: inline-block;
 	padding: 20px;
-	border: 1px solid gray;
+	border: 1px solid black;
 }
+
+#education img {
+	border-radius: 50%;
+	border: 5px solid white;
+	}
