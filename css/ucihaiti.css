@@ -74,7 +74,7 @@ header  {
 
 @media screen and (max-device-width: 800px) {
     header {
-         background: url(/img/uci-smiling-faces.jpg) #000 no-repeat 50% 0%;
+         background: url(/img/uci-smiling-faces.jpg) #000 no-repeat 50% 15%;
          background-size: cover;
     }
     
