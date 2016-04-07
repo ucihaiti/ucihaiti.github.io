@@ -37,7 +37,7 @@ body {
 }
 
 .navmenu-default .navmenu-nav>li>a, .navbar-default .navbar-offcanvas .navmenu-nav>li>a {
-    color: #d67827;
+    color: rgba(53,196,229,1);
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default {

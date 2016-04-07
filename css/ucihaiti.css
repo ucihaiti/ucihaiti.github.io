@@ -152,7 +152,22 @@ section {
 }
 
 #goals ul {
-	margin: 50px 0px;
+	width: 90%;
+	margin: 50px auto;
+}
+
+@media screen and (min-width: 850px) {
+	#goals ul {
+	width: 80%;
+	margin: 50px auto;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#goals ul {
+	width: 70%;
+	margin: 50px auto;
+	}
 }
 
 #goals-title {
@@ -174,6 +189,38 @@ section {
 #farming  {
 	background: url(/img/photoshopped-img/uci-farming.jpg) #000 no-repeat 0% 25%;
 	background-size: cover;
+}
+
+
+
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+hr  {
+ border-color: rgba(53,196,229,1);
+}
+
+
+
+.content-logo  {
+	height:15px;
+	display: inline-block;
+	margin: 0px 8px 4px 0px;
 }
 
 .close-gap  {
@@ -200,7 +247,3 @@ section {
 	height: 100%;
 }
 
-#education img {
-	border-radius: 50%;
-	border: 5px solid white;
-	}
