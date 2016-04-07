@@ -142,9 +142,13 @@ section {
 }
 
 #goals  {
-	background-color: gray;
-	color: white;
+	background-color: #e7e7e7;
+	color: black;
 	padding: 50px 0px;
+}
+
+#goals-header  {
+	padding-bottom: 50px;
 }
 
 #goals ul {
@@ -155,6 +159,45 @@ section {
 	display: inline-block;
 	padding: 20px;
 	border: 1px solid black;
+}
+
+#education  {
+	background: url(/img/photoshopped-img/uci-education.jpg) #000 no-repeat 125% 75%;
+	background-size: cover;
+}
+
+#needs  {
+	background: url(/img/photoshopped-img/uci-nutrition.jpg) #000 no-repeat 0% 25%;
+	background-size: cover;
+}
+
+#farming  {
+	background: url(/img/photoshopped-img/uci-farming.jpg) #000 no-repeat 0% 25%;
+	background-size: cover;
+}
+
+.close-gap  {
+	top: -20px;
+	}
+
+@media screen and (min-width: 768px) {
+	.close-gap  {
+		top: 0px;
+	}
+}
+
+.category-title  {
+	padding-top: 20px;
+}
+
+.content-row  {
+	height: 400px;
+	color: white;
+}
+
+.category-content  {
+	background-color:rgba(0,0,0,.55);
+	height: 100%;
 }
 
 #education img {
