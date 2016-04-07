@@ -52,12 +52,6 @@ header  {
 	color: #fff;
 	}
 
-#header-shadowbox  {
-	background-color:rgba(0,0,0,.25);
-	padding-top: 115px;
-	height: 100%;
-	}
-
 #header-logo  {
 	width: 300px;
 	padding: 20px 10px;
@@ -105,7 +99,13 @@ header  {
 	}
 }
 
-@media screen and (min-device-width: 1200px) {
+#header-shadowbox  {
+	background-color:rgba(0,0,0,.25);
+	padding-top: 115px;
+	height: 100%;
+	}
+
+@media screen and (min-width: 1200px) {
     
     #header-shadowbox  {
 	padding-top: 12%;
