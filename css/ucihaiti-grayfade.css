@@ -27,9 +27,8 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(/img/haiti-header-poster.jpg) no-repeat 50% 50%;
-    background-size: 100% auto;
-    background-color: black;
+    background: url(/img/haiti-header-poster.jpg) no-repeat;
+    background-size: cover;
 	transition: 1s opacity;
 }
 
@@ -52,6 +51,8 @@ video#bgvid {
 header  {	
 	color: #fff;
 	}
+
+
 
 #header-logo  {
 	width: 300px;
@@ -153,46 +154,46 @@ section {
 }
 
 #goals ul {
-	width: 270px;
+	width: 90%;
 	margin: 50px auto;
 }
 
 @media screen and (min-width: 850px) {
 	#goals ul {
-	width: 270px;
+	width: 80%;
 	margin: 50px auto;
 	}
 }
 
 @media screen and (min-width: 1200px) {
 	#goals ul {
-	width: 270px;
+	width: 70%;
 	margin: 50px auto;
 	}
 }
 
 #goals-title {
+	background-color: black;
+	color: white;
 	display: inline-block;
 	padding: 20px;
 	border: 1px solid black;
-	color: white;
-	background-color: black;
 }
-
 
 #needs  {
-	background: url(/img/photoshopped-img/uci-nutrition.jpg) #000 no-repeat 50% 25%;
-	background-size: cover;
+	background: url(/img/photoshopped-img/uci-nutrition.jpg) #e7e7e7 no-repeat 100% 25%;
+	background-size: 70% auto;
 }
 
+
 #education  {
-	background: url(/img/photoshopped-img/uci-education.jpg) #000 no-repeat 0% 100%;
-	background-size: cover;
+	background: url(/img/photoshopped-img/uci-education.jpg) #e7e7e7 no-repeat 0% 25%;
+	background-size: 70% 100%;
 }
 
 #farming  {
-	background: url(/img/photoshopped-img/uci-farming.jpg) #000 no-repeat 50% 25%;
-	background-size: cover;
+	background: url(/img/photoshopped-img/uci-farming.jpg) #e7e7e7 no-repeat 100% 25%;
+	background-size: 70% auto;
 }
 
 
@@ -242,12 +243,27 @@ hr  {
 }
 
 .content-row  {
-	height: 375px;
-	color: white;
+	height: 400px;
+	color: black;
 }
 
 .category-content  {
-	background-color:rgba(0,0,0,.55);
+	background-color:#e7e7e7;
 	height: 100%;
 }
 
+#grad {
+  background: #e7e7e7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,  #e7e7e7 ,#e7e7e7 , transparent); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,  #e7e7e7, #e7e7e7 , transparent); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,  #e7e7e7, #e7e7e7 , transparent); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right,  #e7e7e7 , #e7e7e7 , transparent); /* Standard syntax */
+}
+
+#grad-left {
+  background: #e7e7e7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right,  #e7e7e7 ,#e7e7e7 , transparent); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left,  #e7e7e7, #e7e7e7 , transparent); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left,  #e7e7e7, #e7e7e7 , transparent); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left,  #e7e7e7 , #e7e7e7 , transparent); /* Standard syntax */
+}
