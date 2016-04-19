@@ -23,7 +23,8 @@ body {
     background-color: transparent; 
 }
 .navbar-default .navbar-toggle {
-    border-color: transparent; 
+    border-color: transparent;
+    padding: 10px 9px 10px 5px; 
 }
 
 .navbar-toggle {
@@ -71,12 +72,12 @@ body {
 
 .dropdown-menu, .dropdown-menu:hover {
 	background-color: #000;
-	color: #d67827;
+	color: #fff;
 }
 
 .dropdown-menu>li>a {
     background-color: #000;
-	color: #d67827;
+	color: rgba(53,196,229,1);
     text-decoration: none;
 }
 
@@ -84,6 +85,12 @@ body {
     background-color: #000;
 	color: #fff;
     text-decoration: none;
+}
+
+.open>.dropdown-menu {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid white;
 }
 
 .navbar-default button, .navbar-default button:focus, .navbar-default button:hover, .navbar-default button:active, .navbar-default button:visited {

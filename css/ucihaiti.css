@@ -6,7 +6,8 @@ body {
 
 body {
 	min-height: 100%;
-	font-family: 'Raleway','Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-family: 'Raleway', 'Lato',sans-serif;
+	font-weight: 300;
     font-size: 20px;
 	}
 
@@ -60,7 +61,7 @@ header  {
 	}
 
 #header-title  {
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 50px;	
 	color: #fff;
 	margin-top: 0px;
@@ -123,18 +124,27 @@ section {
 	color: gray;
 }
 
+#mission-org  {
+	color: black;
+	font-family: 'Raleway', Open Sans;
+	font-weight: 500;
+	font-size: 45px;
+}
+
 #mission-container  {
 	border: 1px solid black;
 }
 
 #mission-content  {
+	color: black;
 	margin-top: 0px;
 	margin-bottom: 25px;
 }
 
 #mission-content p {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Bilbo Swash Caps', 'Raleway', cursive;
 	color: black;
+	font-size: 27px;
 }
 
 #mission-logo {
@@ -163,6 +173,8 @@ section {
 	margin: 50px auto;
 	}
 }
+
+
 
 @media screen and (min-width: 1200px) {
 	#goals ul {
@@ -251,3 +263,32 @@ hr  {
 	height: 100%;
 }
 
+
+/* --------------------------- about page css ---------------------------------*/
+
+#about-container, #about-row {
+	height: 100%;
+	}
+
+#about {
+	background-image: url("../img/about/mompremier-xl.jpg");
+	background-size: cover;
+	background-position: 50% 15%;
+	height: 70%;
+}
+
+#about-shadowbox  {
+	background-color:rgba(0,0,0,.25);
+	height: 100%;
+}
+
+#about-logo  {
+	width: 200px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+
+#about-title  {
+	font-weight: 700;
+	font-size: 50px;	
+	}
