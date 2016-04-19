@@ -11,9 +11,16 @@ body {
     font-size: 20px;
 	}
 
+.section-divider  {
+	border-color: black;
+}
+
+
 #top, #header-container, #header-row, #header-img-left  {
 	height: 100%;
 	}
+
+
 
 video#bgvid { 
     position: absolute;
@@ -186,7 +193,6 @@ section {
 #goals-title {
 	display: inline-block;
 	padding: 20px;
-	border: 1px solid black;
 	color: white;
 	background-color: black;
 }
@@ -263,6 +269,42 @@ hr  {
 	height: 100%;
 }
 
+/* --------------------------- Portfolio/Modals css ---------------------------------*/
+
+.modal-content {
+	padding: 10% 5% 5% 5%;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal .lr {
+	height:75px;
+	width:1px;
+	margin-left:35px;
+	background-color:#222;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	z-index:1051
+	}
+
+.portfolio-modal .close-modal .lr .rl {
+	height:75px;
+	width:1px;
+	background-color:#222;
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	z-index:1052
+	}
 
 /* --------------------------- about page css ---------------------------------*/
 
@@ -273,7 +315,7 @@ hr  {
 #about {
 	background-image: url("../img/about/mompremier-xl.jpg");
 	background-size: cover;
-	background-position: 50% 15%;
+	background-position: 65% 15%;
 	height: 70%;
 }
 
@@ -283,7 +325,7 @@ hr  {
 }
 
 #about-logo  {
-	width: 200px;
+	width: 175px;
 	margin: 0px auto;
 	padding-top: 10px;
 }
@@ -292,3 +334,58 @@ hr  {
 	font-weight: 700;
 	font-size: 50px;	
 	}
+	
+#page-caption  {
+	margin: 25px 0px;
+	font-size: 45px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: rgba(53,196,229,1);
+    border-color: #000;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+
+.inverted-box {
+	background-color: #000;
+	color: white;
+	padding: 20px;
+	display: inline-block;
+}
+
+.collapse  {
+	margin-top: 10px;
+}
+
+.box-border  {
+	border: 1px solid black;
+}
+
+#family  {
+	width: 600px;
+	margin-top: 60px 
+}
+
+.modal-title  {
+	margin-top: 0px;
+}
+
+#beginning  {
+	background-image: url("../img/about/uci-backdrop-bikepath2.jpg");
+	background-size: cover;
+	background-position: 60% 0%;
+}
+
+.category-title  {
+	margin-bottom: 0px;
+}
+
+#beginning-caption  {
+	padding: 10px;
+}
+
+.white-background  {
+	background-color: white;
+}
