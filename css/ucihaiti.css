@@ -130,7 +130,7 @@ section {
 	background-color: white;
 	color: gray;
 	background-image: url("../img/home/one-community.jpg");
-	background-size: contain;
+	background-size: cover;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
 }
@@ -151,6 +151,11 @@ section {
 }
 
 @media (min-width:768px) {
+
+#mission  {
+	background-size: contain;
+}
+
 	#mission-container  {
 	width: 60%;
 }
@@ -345,7 +350,13 @@ hr  {
 	background-image: url("../img/about/mompremier-xl.jpg");
 	background-size: cover;
 	background-position: 65% 15%;
+	height: 80%;
+}
+
+@media screen and (min-width: 768px) {
+#about {
 	height: 70%;
+}
 }
 
 #about-shadowbox  {
@@ -376,10 +387,17 @@ hr  {
 .btn-info {
     color: #fff;
     background-color: rgba(53,196,229,1);
-    border-color: #000;
+    border: none;
     border-radius: 0px;
-    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
+
+.btn-info:hover {
+    box-shadow: 10px 10px 10px #373737;
+}
+
+
 
 .inverted-box {
 	background-color: #000;
@@ -396,7 +414,7 @@ hr  {
 	border: 1px solid black;
 }
 
-#family  {
+#about-cat-img  {
 	width: 600px;
 	margin-top: 60px 
 }
@@ -418,8 +436,10 @@ hr  {
 
 #beginning-caption  {
 	padding: 10px;
+	color: white;
+	
 }
 
-.white-background  {
-	background-color: white;
+.blue-background  {
+	background-color: rgba(53,196,229,1);
 }
