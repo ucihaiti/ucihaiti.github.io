@@ -136,7 +136,7 @@ section {
 	background-color: white;
 	color: gray;
 	background-image: url("../img/home/one-community-smooth.jpg");
-	background-size: cover;
+	background-size: contain;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
 }
@@ -159,7 +159,7 @@ section {
 @media (min-width:768px) {
 
 #mission  {
-	background-size: cover;
+	background-size: contain;
 }
 
 	#mission-container  {
