@@ -363,7 +363,7 @@ hr  {
 	background-image: url("../img/about/mompremier-xl.jpg");
 	background-size: cover;
 	background-position: 65% 15%;
-	height: 80%;
+	height: 90%;
 }
 
 
@@ -380,7 +380,7 @@ hr  {
 
 @media screen and (min-width: 768px) {
 #about {
-	height: 90%;
+	height: 80%;
 }
 
 #about-shadowbox  {
