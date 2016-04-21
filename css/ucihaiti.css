@@ -156,14 +156,21 @@ section {
 	border: 1px solid black;
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
 
 #mission  {
-	background-size: cover;
+	background-size: contain;
 }
 
 	#mission-container  {
 	width: 60%;
+}
+}
+
+@media screen and (min-width:1300px) {
+
+#mission  {
+	background-size: cover;
 }
 }
 
