@@ -463,6 +463,10 @@ hr  {
 	background-color: rgba(53,196,229,1);
 }
 
+.left-margin  {
+    margin-left: 11%;
+}
+
 .three-member-row col-sm-3  {
 	width: 21%;
 }
