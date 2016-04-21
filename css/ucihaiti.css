@@ -132,6 +132,11 @@ section {
 	padding: 70px 6%;
 }
 
+.secondary section {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
 #mission  {
 	background-color: white;
 	color: gray;
@@ -359,7 +364,7 @@ hr  {
 	height: 100%;
 	}
 
-#supporting-header {
+#about-header {
 	background-image: url("../img/about/mompremier-xl.jpg");
 	background-size: cover;
 	background-position: 65% 15%;
@@ -459,7 +464,7 @@ hr  {
 }
 
 #beginning  {
-	background-image: url("../img/about/bikepath-color.png");
+	background-image: url("../img/about/bikepath-color.jpg");
 	background-size: contain;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
@@ -488,4 +493,55 @@ hr  {
 
 .three-member-row col-sm-3  {
 	width: 21%;
+}
+
+/* --------------------------- uniting page css ---------------------------------*/
+
+
+#uniting-header {
+	background-image: url("../img/uniting/praying-hands.jpg");
+	background-size: cover;
+	background-position: 65% 0%;
+	height: 90%;
+}
+
+.applications .col-sm-3  {
+	width: 27.8%;
+}
+
+.applications .col-sm-3 h2, .applications .col-sm-3 p, .applications .col-sm-5 p, .applications .col-sm-5 h2 {
+	background-color: rgba(53,196,229,1);
+	color: white;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.applications .col-sm-3 h2,  .applications .col-sm-5 h2  {
+	background-color: black;
+}
+
+.applications .col-sm-3 .btn-info {
+	margin-top: 10px;
+}
+
+.applications .row {
+	margin-bottom: 20px;
+}
+
+#uniting-applications  {
+	background-image: url("../img/uniting/church.jpg");
+	background-size: contain;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+}
+
+/* --------------------------- FAQ page css ---------------------------------*/
+
+
+#faq-header {
+	background-image: url("../img/uniting/uniting.jpg");
+	background-size: cover;
+	background-position: 65% 0%;
+	height: 90%;
 }
