@@ -159,7 +159,7 @@ section {
 @media (min-width:768px) {
 
 #mission  {
-	background-size: contain;
+	background-size: cover;
 }
 
 	#mission-container  {
@@ -186,7 +186,7 @@ section {
 }
 
 #goals  {
-	background-color: #fff;
+	background-color: #e7e7e7;
 	color: black;
 	padding: 50px 0px;
 }
