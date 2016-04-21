@@ -421,6 +421,8 @@ hr  {
 
 .btn-info:hover {
     box-shadow: 10px 10px 10px #373737;
+    background-color: rgba(250,250,250,1);
+    color: black;
 }
 
 
