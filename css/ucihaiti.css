@@ -129,7 +129,7 @@ section {
 #mission  {
 	background-color: white;
 	color: gray;
-	background-image: url("../img/home/one-community.jpg");
+	background-image: url("../img/home/one-community-smooth.jpg");
 	background-size: cover;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
@@ -153,7 +153,7 @@ section {
 @media (min-width:768px) {
 
 #mission  {
-	background-size: contain;
+	background-size: cover;
 }
 
 	#mission-container  {
@@ -424,7 +424,7 @@ hr  {
 }
 
 #beginning  {
-	background-image: url("../img/about/uci-backdrop-bikepath-opentop.jpg");
+	background-image: url("../img/about/bike-path-smooth.jpg");
 	background-size: contain;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
