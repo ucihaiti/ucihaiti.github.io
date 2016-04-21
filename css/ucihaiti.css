@@ -135,7 +135,7 @@ section {
 #mission  {
 	background-color: white;
 	color: gray;
-	background-image: url("../img/home/one-community.png");
+	background-image: url("../img/home/one-community-color2.png");
 	background-size: contain;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
@@ -170,7 +170,7 @@ section {
 @media screen and (min-width:1300px) {
 
 #mission  {
-	background-size: cover;
+	background-size: contain;
 }
 }
 
@@ -370,7 +370,7 @@ hr  {
 #about-shadowbox  {
 	background-color:rgba(0,0,0,.25);
 	height: 100%;
-	padding-top: 4%;
+	padding-top: 25%;
 }
 
 #about-logo  {
@@ -459,7 +459,7 @@ hr  {
 }
 
 #beginning  {
-	background-image: url("../img/about/bike-path-smooth.jpg");
+	background-image: url("../img/about/bikepath-color.png");
 	background-size: contain;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
