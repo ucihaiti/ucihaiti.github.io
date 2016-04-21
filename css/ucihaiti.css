@@ -370,7 +370,7 @@ hr  {
 #about-shadowbox  {
 	background-color:rgba(0,0,0,.25);
 	height: 100%;
-	padding-top: 25%;
+	padding-top: 23%;
 }
 
 #about-logo  {
@@ -380,7 +380,7 @@ hr  {
 
 @media screen and (min-width: 768px) {
 #about {
-	height: 80%;
+	height: 90%;
 }
 
 #about-shadowbox  {
