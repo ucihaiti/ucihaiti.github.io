@@ -355,11 +355,11 @@ hr  {
 
 /* --------------------------- about page css ---------------------------------*/
 
-#about-container, #about-row {
+#supporting-header-container, #supporting-header-row {
 	height: 100%;
 	}
 
-#about {
+#supporting-header {
 	background-image: url("../img/about/mompremier-xl.jpg");
 	background-size: cover;
 	background-position: 65% 15%;
@@ -367,36 +367,36 @@ hr  {
 }
 
 
-#about-shadowbox  {
+#supporting-header-shadowbox  {
 	background-color:rgba(0,0,0,.25);
 	height: 100%;
 	padding-top: 23%;
 }
 
-#about-logo  {
+#supporting-header-logo  {
 	width: 175px;
 	margin: 0px auto;
 }
 
 @media screen and (min-width: 768px) {
-#about {
+#supporting-header {
 	height: 80%;
 }
 
-#about-shadowbox  {
+#supporting-header-shadowbox  {
 	padding-top: 8%;
 }
 }
 
 @media screen and (min-width: 1280px) {
 
-#about-logo  {
+#supporting-header-logo  {
 	width: 275px;
 }
 
 }
 
-#about-title  {
+#supporting-header-title  {
 	font-weight: 700;
 	font-size: 50px;	
 	}
@@ -443,7 +443,7 @@ hr  {
 	border: 1px solid black;
 }
 
-#about-cat-img  {
+#supporting-cat-img  {
 	width: 600px;
 	margin-top: 60px 
 }
