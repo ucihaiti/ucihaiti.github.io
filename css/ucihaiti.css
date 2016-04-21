@@ -28,8 +28,8 @@ video#bgvid {
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     z-index: -100;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -39,6 +39,13 @@ video#bgvid {
     background-size: 100% auto;
     background-color: black;
 	transition: 1s opacity;
+}
+
+@media screen and (min-width: 1160px) {
+	video#bgvid { 
+    width: 100%;
+    height: auto;
+}
 }
 
 #vidpause  {
@@ -53,7 +60,6 @@ video#bgvid {
     padding-left: 13px;
 	
 }
-
 
 .stopfade { opacity: .5; }
 
@@ -353,21 +359,28 @@ hr  {
 	height: 80%;
 }
 
-@media screen and (min-width: 768px) {
-#about {
-	height: 70%;
-}
-}
 
 #about-shadowbox  {
 	background-color:rgba(0,0,0,.25);
 	height: 100%;
+	padding-top: 2%;
 }
+
+@media screen and (min-width: 768px) {
+#about {
+	height: 80%;
+}
+
+#about-shadowbox  {
+	padding-top: 5%;
+}
+
+}
+
 
 #about-logo  {
 	width: 175px;
 	margin: 0px auto;
-	padding-top: 10px;
 }
 
 #about-title  {
@@ -423,6 +436,12 @@ hr  {
 	margin-top: 0px;
 }
 
+.board-img {
+	border-radius: 50%;
+	width: 70%;
+	margin: 0px auto;
+}
+
 #beginning  {
 	background-image: url("../img/about/bike-path-smooth.jpg");
 	background-size: contain;
@@ -442,4 +461,8 @@ hr  {
 
 .blue-background  {
 	background-color: rgba(53,196,229,1);
+}
+
+.three-member-row col-sm-3  {
+	width: 21%;
 }
