@@ -373,6 +373,11 @@ hr  {
 	padding-top: 3%;
 }
 
+#about-logo  {
+	width: 175px;
+	margin: 0px auto;
+}
+
 @media screen and (min-width: 768px) {
 #about {
 	height: 80%;
@@ -381,13 +386,14 @@ hr  {
 #about-shadowbox  {
 	padding-top: 8%;
 }
-
 }
 
+@media screen and (min-width: 1300px) {
 
 #about-logo  {
-	width: 175px;
-	margin: 0px auto;
+	width: 275px;
+}
+
 }
 
 #about-title  {
