@@ -422,6 +422,8 @@ hr  {
     border-radius: 0px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    margin-bottom: 20px;
+
 }
 
 .btn-info:hover {
@@ -533,10 +535,6 @@ hr  {
 
 .applications .col-sm-3 .btn-info {
 	margin-top: 10px;
-}
-
-.applications .row {
-	margin-bottom: 20px;
 }
 
 
