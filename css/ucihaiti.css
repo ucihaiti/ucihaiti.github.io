@@ -509,6 +509,11 @@ hr  {
 	width: 27.8%;
 }
 
+.modal-content p {
+	background-color: white !important;
+	color: black !important;
+}
+
 .applications .col-sm-3 h2, .applications .col-sm-3 p, .applications .col-sm-5 p, .applications .col-sm-5 h2 {
 	background-color: rgba(53,196,229,1);
 	color: white;
@@ -533,6 +538,8 @@ hr  {
 .applications .row {
 	margin-bottom: 20px;
 }
+
+
 
 #uniting-applications  {
 	background-image: url("../img/uniting/church.jpg");
