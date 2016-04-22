@@ -140,7 +140,7 @@ section {
 #mission  {
 	background-color: white;
 	color: gray;
-	background-image: url("../img/home/one-community-color2.png");
+	background-image: url("../img/home/face-in-crowd-brighter.jpg");
 	background-size: contain;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
@@ -517,8 +517,13 @@ hr  {
 	margin-bottom: 0px;
 }
 
+.applications .col-sm-3 p, .applications .col-sm-5 p{
+	margin-bottom: 10px;
+}
+
 .applications .col-sm-3 h2,  .applications .col-sm-5 h2  {
 	background-color: black;
+	display: inline-block;
 }
 
 .applications .col-sm-3 .btn-info {
@@ -534,6 +539,13 @@ hr  {
 	background-size: contain;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1280px) {
+	#uniting-applications  {
+	background-size: cover;
+}
+
 }
 
 /* --------------------------- FAQ page css ---------------------------------*/
