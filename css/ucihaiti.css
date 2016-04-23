@@ -175,7 +175,7 @@ section {
 @media screen and (min-width:1300px) {
 
 #mission  {
-	background-size: contain;
+	background-size: cover;
 }
 }
 
@@ -583,6 +583,13 @@ hr  {
 	background-size: cover;
 	background-position: 50% 64%;
 	background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1280px) {
+	#uniting-applications  {
+	background-size: cover;
+}
+
 }
 
 /* --------------------------- FAQ page css ---------------------------------*/
