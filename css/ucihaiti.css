@@ -41,7 +41,7 @@ video#bgvid {
 	transition: 1s opacity;
 }
 
-@media screen and (min-width: 1160px) {
+@media screen and (min-width: 1075px) {
 	video#bgvid { 
     width: 100%;
     height: auto;
