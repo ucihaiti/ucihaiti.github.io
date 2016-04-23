@@ -338,7 +338,7 @@ hr  {
 /* --------------------------- Portfolio/Modals css ---------------------------------*/
 
 .modal-content {
-	padding: 100px 0;
+	padding: 100px 5%;
 }
 
 .portfolio-modal .close-modal {
