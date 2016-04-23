@@ -41,7 +41,7 @@ video#bgvid {
 	transition: 1s opacity;
 }
 
-@media screen and (min-width: 1075px) {
+@media screen and (min-width: 1160px) {
 	video#bgvid { 
     width: 100%;
     height: auto;
@@ -572,16 +572,16 @@ hr  {
 /* --------------------------- uniting page css ---------------------------------*/
 
 #teaching-header {
-	background-image: url("../img/teaching/teaching-lg.jpg");
+	background-image: url("../img/teaching/school-students.jpg");
 	background-size: cover;
-	background-position: 65% 0%;
+	background-position: 65% 100%;
 	height: 90%;
 }
 
 #teaching-applications  {
-	background-image: url("../img/teaching/school-students.jpg");
-	background-size: contain;
-	background-position: 50% 100%;
+	background-image: url("../img/teaching/school.jpg");
+	background-size: cover;
+	background-position: 50% 64%;
 	background-repeat: no-repeat;
 }
 
