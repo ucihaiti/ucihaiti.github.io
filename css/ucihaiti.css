@@ -465,7 +465,7 @@ hr  {
 }
 
 .supporting-cat-img  {
-	width: 602px;
+	max-width: 602px;
 	margin-top: 60px 
 }
 
