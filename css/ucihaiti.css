@@ -338,7 +338,7 @@ hr  {
 /* --------------------------- Portfolio/Modals css ---------------------------------*/
 
 .modal-content {
-	padding: 10% 5% 5% 5%;
+	padding: 100px 0;
 }
 
 .portfolio-modal .close-modal {
@@ -465,8 +465,7 @@ hr  {
 }
 
 .supporting-cat-img  {
-	width: 76%;
-	margin-top: 60px 
+	width: 90%;
 }
 
 .modal-title  {
