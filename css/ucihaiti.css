@@ -251,7 +251,21 @@ section {
 	background-size: cover;
 }
 
+@media screen and (min-width: 990px) {
 
+#needs  {
+	background: url(/img/photoshopped-img/uci-nutrition.jpg) #000 no-repeat 0% 25%;
+	background-size: 68% auto;
+}
+#education  {
+	background: url(/img/photoshopped-img/uci-education.jpg) #000 no-repeat 0% 50%;
+	background-size: 89% auto;
+}
+#farming  {
+	background: url(/img/photoshopped-img/uci-farming.jpg) #000 no-repeat 100% 10%;
+	background-size: 68% auto;
+}
+}
 
 hr.style18 { 
   height: 30px; 
@@ -450,8 +464,8 @@ hr  {
 	border: 1px solid black;
 }
 
-#supporting-cat-img  {
-	width: 600px;
+.supporting-cat-img  {
+	width: 602px;
 	margin-top: 60px 
 }
 
@@ -537,7 +551,9 @@ hr  {
 	margin-top: 10px;
 }
 
-
+#new-house-img {
+	margin-top: 0px;
+}
 
 #uniting-applications  {
 	background-image: url("../img/uniting/church.jpg");
@@ -551,6 +567,22 @@ hr  {
 	background-size: cover;
 }
 
+}
+
+/* --------------------------- uniting page css ---------------------------------*/
+
+#teaching-header {
+	background-image: url("../img/teaching/teaching-lg.jpg");
+	background-size: cover;
+	background-position: 65% 0%;
+	height: 90%;
+}
+
+#teaching-applications  {
+	background-image: url("../img/teaching/school-students.jpg");
+	background-size: contain;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
 }
 
 /* --------------------------- FAQ page css ---------------------------------*/
