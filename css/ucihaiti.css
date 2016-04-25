@@ -387,7 +387,7 @@ hr  {
 
 
 #supporting-header-shadowbox  {
-	background-color:rgba(0,0,0,.25);
+	background-color:rgba(0,0,0,.45);
 	height: 100%;
 	padding-top: 23%;
 }
@@ -448,14 +448,6 @@ hr  {
 }
 
 
-
-.inverted-box {
-	background-color: #000;
-	color: white;
-	padding: 20px;
-	display: inline-block;
-}
-
 .collapse  {
 	margin-top: 10px;
 }
@@ -479,7 +471,7 @@ hr  {
 }
 
 #beginning  {
-	background-image: url("../img/about/bikepath-color.jpg");
+	background-image: url("../img/about/bike-path-refined.jpg");
 	background-size: contain;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
@@ -529,10 +521,10 @@ hr  {
 	color: black !important;
 }
 
-.applications .col-sm-3 h2, .applications .col-sm-3 p, .applications .col-sm-5 p, .applications .col-sm-5 h2 {
+.applications .col-sm-3 h2, .applications .col-sm-3 p, .applications .col-sm-5 p, .applications .col-sm-5 h2, .applications .col-sm-10 p, .applications .col-sm-10 h2 {
 	background-color: rgba(53,196,229,1);
 	color: white;
-	padding: 5px;
+	padding: 10px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -541,12 +533,12 @@ hr  {
 	margin-bottom: 10px;
 }
 
-.applications .col-sm-3 h2,  .applications .col-sm-5 h2  {
+.applications .col-sm-3 h2,  .applications .col-sm-5 h2,  .applications .col-sm-10 h2  {
 	background-color: black;
 	display: inline-block;
 }
 
-.applications .col-sm-3 .btn-info {
+.applications .col-sm-3 .btn-info, .applications .col-sm-10 .btn-info {
 	margin-top: 10px;
 }
 
@@ -568,12 +560,28 @@ hr  {
 
 }
 
+/* --------------------------- equipping page css ---------------------------------*/
+
+#equipping-header {
+	background-image: url("../img/teaching/school-students-brighter.jpg");
+	background-size: cover;
+	background-position: 65% 100%;
+	height: 90%;
+}
+
+#equipping-applications  {
+	background-image: url("../img/equipping/ag-project-cropped.jpg");
+	background-size:  100% auto ;
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+}
+
 /* --------------------------- uniting page css ---------------------------------*/
 
 #teaching-header {
-	background-image: url("../img/teaching/school-students.jpg");
+	background-image: url("../img/equipping/equipping-students.jpg");
 	background-size: cover;
-	background-position: 65% 100%;
+	background-position: 50% 50%;
 	height: 90%;
 }
 
@@ -599,4 +607,12 @@ hr  {
 	background-size: cover;
 	background-position: 65% 0%;
 	height: 90%;
+}
+
+
+.inverted-box {
+	background-color: #000;
+	color: white;
+	padding: 10px;
+	display: inline-block;
 }
