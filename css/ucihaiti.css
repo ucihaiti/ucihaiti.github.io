@@ -397,6 +397,10 @@ hr  {
 
 /* --------------------------- about page css ---------------------------------*/
 
+.bold {
+	font-weight: bold;
+}
+
 #supporting-header-container, #supporting-header-row {
 	height: 100%;
 	}
