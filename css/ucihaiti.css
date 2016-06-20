@@ -11,6 +11,17 @@ body {
     font-size: 20px;
 	}
 
+
+#support-button  {
+	position: absolute;
+	top: 0;
+	left 5;
+	margin: 15px 0px 0px 25px;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	background: rgba(53,196,229,1);
+}
+
 .section-divider  {
 	border-color: black;
 }
@@ -19,7 +30,6 @@ body {
 #top, #header-container, #header-row, #header-img-left  {
 	height: 100%;
 	}
-
 
 
 video#bgvid { 
