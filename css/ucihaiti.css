@@ -20,6 +20,19 @@ body {
 	padding: 5px 10px 5px 10px;
 	color: white;
 	background: rgba(53,196,229,1);
+	cursor: pointer;
+}
+
+#support-button h4 {
+	margin: 5px 0px 5px 0px;
+}
+
+#support-button hr {
+	border-color: black;
+}
+
+#support-button:hover  {
+	background:  gray;
 }
 
 .section-divider  {
