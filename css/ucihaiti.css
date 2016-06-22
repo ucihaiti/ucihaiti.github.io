@@ -11,6 +11,10 @@ body {
     font-size: 20px;
 	}
 
+a {
+    color: rgba(53,196,229,1);
+}
+
 
 #support-button  {
 	position: absolute;
@@ -648,8 +652,8 @@ hr  {
 	margin: 0px 0px 2px 20px;
 }
 
-.collapse ol span {
-	font-weight: bold;
+#trip-info ol span {
+	font-weight: 500;
 }
 
 .question {
