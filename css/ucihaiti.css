@@ -643,3 +643,16 @@ hr  {
 	padding: 10px;
 	display: inline-block;
 }
+
+.faq-btn  {
+	margin: 0px 0px 2px 20px;
+}
+
+.collapse ol span {
+	font-weight: bold;
+}
+
+.question {
+	background-color: black;
+	color: white;
+}
