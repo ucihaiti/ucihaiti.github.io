@@ -164,6 +164,11 @@ section {
 	padding-top: 15px;
 }
 
+.padding-bottom  {
+	padding-bottom: 150px;
+
+}
+
 #mission  {
 	background-color: white;
 	color: gray;
@@ -502,7 +507,7 @@ hr  {
 #beginning  {
 	background-image: url("../img/about/bike-path-refined.jpg");
 	background-size: 100%;
-	background-position: 50% 100%;
+	background-position: 50% 175%;
 	background-repeat: no-repeat;
 }
 
@@ -601,7 +606,7 @@ hr  {
 #equipping-applications  {
 	background-image: url("../img/equipping/ag-project-cropped.jpg");
 	background-size:  100% auto ;
-	background-position: 50% 100%;
+	background-position: 50% 170%;
 	background-repeat: no-repeat;
 }
 
