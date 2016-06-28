@@ -156,7 +156,7 @@ header  {
     
 
 section {
-	padding: 70px 6%;
+	padding: 35px 6%;
 }
 
 .secondary section {
@@ -596,16 +596,17 @@ hr  {
 #equipping-header {
 	background-image: url("../img/teaching/school-students-brighter.jpg");
 	background-size: cover;
-	background-position: 65% 100%;
+	background-position: 65% 98%;
 	height: 90%;
 }
 
 #equipping-applications  {
 	background-image: url("../img/equipping/ag-project-cropped.jpg");
 	background-size:  100% auto ;
-	background-position: 50% 100%;
+	background-position: 50% 0%;
 	background-repeat: no-repeat;
 }
+
 
 /* --------------------------- uniting page css ---------------------------------*/
 
@@ -619,7 +620,7 @@ hr  {
 #teaching-applications  {
 	background-image: url("../img/teaching/school.jpg");
 	background-size: cover;
-	background-position: 50% 64%;
+	background-position: 50% 0%;
 	background-repeat: no-repeat;
 }
 
@@ -659,4 +660,9 @@ hr  {
 .question {
 	background-color: black;
 	color: white;
+}
+
+#faq {
+	    margin: 25px 0px 0px;
+	    font-size: 45px;
 }
