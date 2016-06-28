@@ -155,11 +155,11 @@ header  {
 }
     
 
-section {
+.index section {
 	padding: 35px 6%;
 }
 
-.secondary section {
+section {
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
@@ -168,7 +168,7 @@ section {
 	background-color: white;
 	color: gray;
 	background-image: url("../img/home/face-in-crowd-brighter.jpg");
-	background-size: contain;
+	background-size: 100%;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
 }
@@ -190,9 +190,7 @@ section {
 
 @media screen and (min-width:768px) {
 
-#mission  {
-	background-size: contain;
-}
+
 
 	#mission-container  {
 	width: 60%;
@@ -503,7 +501,7 @@ hr  {
 
 #beginning  {
 	background-image: url("../img/about/bike-path-refined.jpg");
-	background-size: contain;
+	background-size: 100%;
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
 }
@@ -603,7 +601,7 @@ hr  {
 #equipping-applications  {
 	background-image: url("../img/equipping/ag-project-cropped.jpg");
 	background-size:  100% auto ;
-	background-position: 50% 0%;
+	background-position: 50% 100%;
 	background-repeat: no-repeat;
 }
 
@@ -641,6 +639,12 @@ hr  {
 	height: 90%;
 }
 
+#faq-applications  {
+	background-image: url("../img/faq/faq-application.jpg");
+	background-size: cover;
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+}
 
 .inverted-box {
 	background-color: #000;
@@ -665,4 +669,10 @@ hr  {
 #faq {
 	    margin: 25px 0px 0px;
 	    font-size: 45px;
+}
+
+/* --------------------------- contact page css ---------------------------------*/
+
+#contact-header  {
+	height: 100px;
 }
