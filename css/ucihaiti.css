@@ -731,10 +731,22 @@ hr  {
 #thank-you  {
 	background-image: url("../img/support/support-applications.jpg");
 	background-size: 100%;
-	background-position: 50% 45%;
+	background-position: 50% 100%;
 	background-repeat: no-repeat;
-	height: 700px;
+	height: 900px;
 }
+
+@media screen and (max-width:1100px) {
+	#thank-you  {
+	height: 700px;
+	}
+} 
+
+@media screen and (max-width:670px) {
+	#thank-you  {
+	height: 400px;
+	}
+} 
 
 #thank-you-banner  {
 	padding-top: 40px;
@@ -742,7 +754,7 @@ hr  {
 	font-weight: bold;
 	background-color: rgba(53,196,229,1);
 	color: white;
-	margin-top: 100px;
+	margin-top: 20px;
 
 }
 
