@@ -712,3 +712,92 @@ hr  {
 	background-position: 65% 20%;
 	height: 70%;
     }
+    
+#contact-container {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+/* --------------------------- support page css ---------------------------------*/
+
+
+#support-header {
+	background-image: url("../img/support/support.jpg");
+	background-size: cover;
+	background-position: 65% 0%;
+	height: 90%;
+}
+
+#thank-you  {
+	background-image: url("../img/support/support-applications.jpg");
+	background-size: 100%;
+	background-position: 50% 45%;
+	background-repeat: no-repeat;
+	height: 700px;
+}
+
+#thank-you-banner  {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-weight: bold;
+	background-color: rgba(53,196,229,1);
+	color: white;
+	margin-top: 100px;
+
+}
+
+/* --------------------------- footer css ---------------------------------*/
+
+
+footer  {
+	background-color: black;
+	padding: 20px;
+}
+
+footer a {
+	color: black;
+	}
+
+
+footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+footer h1 {
+	color: white;
+	margin: 15px 0px 13px 0px;
+}
+
+footer hr {
+	margin: 15px 0px 0px 0px;
+}
+
+footer .col-sm-6  {
+	background-color: rgba(53,196,229,1);
+}
+
+#footer-logo  {
+	max-width: 140px;
+	margin: 20px auto;
+}
+
+.quarter-tile {
+	float: left;
+	padding: 20px;
+	height: 33%;
+	width: 25%;
+}
+
+.tile {
+	padding: 5px;
+}
+
+.half-tile {
+	float: left;
+	padding: 20px;
+	height: 33%;
+	width: 50%;
+}
+
+
