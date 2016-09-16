@@ -151,37 +151,6 @@
 			</div>              
         </div>
     </section> 
-	
-	<script>
-			var vid = document.getElementById("bgvid"),
-		pauseButton = document.getElementById("vidpause"),
-		icon = document.getElementById("button-icon");
-		function vidFade() {
-			vid.classList.add("stopfade");
-		}
-		vid.addEventListener('ended', function() {
-			// only functional if "loop" is removed 
-			 vid.pause();
-			// to capture IE10
-			vidFade();
-		});
-		pauseButton.addEventListener("click", function() {
-			vid.classList.toggle("stopfade");
-			if (vid.paused) {
-		vid.play();
-				icon.className = "fa fa-pause fa-lg";
-			} else {
-				vid.pause();
-				icon.className = "fa fa-play fa-lg";
-			}
-		})
-	</script>	
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
  
 <footer>
  	<div class="container-fluid">
@@ -218,6 +187,36 @@
  	</div>
  </footer>	
 	
+	<script>
+			var vid = document.getElementById("bgvid"),
+		pauseButton = document.getElementById("vidpause"),
+		icon = document.getElementById("button-icon");
+		function vidFade() {
+			vid.classList.add("stopfade");
+		}
+		vid.addEventListener('ended', function() {
+			// only functional if "loop" is removed 
+			 vid.pause();
+			// to capture IE10
+			vidFade();
+		});
+		pauseButton.addEventListener("click", function() {
+			vid.classList.toggle("stopfade");
+			if (vid.paused) {
+		vid.play();
+				icon.className = "fa fa-pause fa-lg";
+			} else {
+				vid.pause();
+				icon.className = "fa fa-play fa-lg";
+			}
+		})
+	</script>	
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
 
 </body>
 </html>
